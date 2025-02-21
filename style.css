@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.burger-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.top-bun-wrapper {
+    width: 50px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.top-bun {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+}
