@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .top-bun-wrapper {
@@ -23,4 +23,58 @@ body {
     width: 50px;
     background-color: yellow;
     border-radius: 50%;
+}
+
+.lettuce-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 13px;
+    width: 53px;
+    margin-top: -11px;
+}
+
+.lettuce {
+    position: absolute;
+    width: 55px;
+    height: 10px;
+    background: radial-gradient(1px, transparent, transparent 1px, green 1px, green 3px, transparent 3px);
+    background-size: 8px 18px;
+}
+
+.lettuce2 {
+    top: 10px;
+    left: 4px;
+    background-position: 0px -27px;
+}
+
+.tomato {
+    height: 3px;
+    width: 45px;
+    background-color: red;
+    margin-top: -3px;
+}
+
+.pickle {
+    height: 2px;
+    width: 35px;
+    background-color: green;
+}
+
+.cheese-wrapper {
+    position: relative;
+}
+
+.cheese {
+    height: 3px;
+    width: 50px;
+    background-color: orange;
+}
+
+.cheese-drip {
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid orange;
+
 }
