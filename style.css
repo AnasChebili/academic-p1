@@ -8,13 +8,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: gap 300ms ease-in-out;
+    transform: translateX(0);
+    transition: all 300ms ease-in-out;
     gap: 0px;
 
 }
 
 .burger-container:hover {
     gap: 8px;
+    animation: bounce-horizontal 0.8s ease-in-out infinite;
 }
 
 .burger-container:hover .pickle {
@@ -182,4 +184,27 @@
     top: 40px;
     transform: translate(-45px, -18px);
     opacity: 0;
+}
+
+@keyframes bounce-horizontal {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(2deg);
+    }
+
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
