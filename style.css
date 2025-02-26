@@ -182,7 +182,6 @@
 .watermelon-container:hover .row1,
 .watermelon-container:hover .row2 {
     top: 40px;
-    transform: translate(-45px, -18px);
     opacity: 0;
 }
 
