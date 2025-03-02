@@ -16,7 +16,6 @@
 
 .burger-container:hover {
     gap: 8px;
-    animation: bounce-horizontal 0.8s ease-in-out infinite;
 }
 
 .burger-container:hover .pickle {
@@ -207,28 +206,7 @@
     opacity: 0;
 }
 
-@keyframes bounce-horizontal {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    25% {
-        transform: rotate(-2deg);
-    }
-
-    50% {
-        transform: rotate(0deg);
-    }
-
-    75% {
-        transform: rotate(2deg);
-    }
-
-
-    100% {
-        transform: rotate(0deg);
-    }
-}
 
 @keyframes rotating-cheese1 {
     0% {
