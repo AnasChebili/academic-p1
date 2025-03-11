@@ -38,6 +38,15 @@
     animation: wabbling-left 3s linear infinite;
 }
 
+.burger-container:hover .pickle {
+    animation: wabbling-right 3s linear infinite;
+}
+
+.burger-container:hover .patty {
+    animation: wabbling-right 3s linear infinite;
+}
+
+
 .top-bun-wrapper {
     width: 50px;
     height: 25px;
@@ -324,4 +333,22 @@
     }
 }
 
+
+@keyframes wabbling-right {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
 
