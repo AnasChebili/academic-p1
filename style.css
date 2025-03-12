@@ -46,6 +46,10 @@
     animation: wabbling-right 3s linear infinite;
 }
 
+.burger-container:hover .lettuce {
+    animation: wiggle-right 0.5s linear infinite;
+}
+
 
 .top-bun-wrapper {
     width: 50px;
@@ -66,14 +70,16 @@
     height: 13px;
     width: 53px;
     margin-top: -11px;
+    
 }
 
 .lettuce {
     position: absolute;
-    width: 55px;
+    width: 70px;
     height: 10px;
     background: radial-gradient(1px, transparent, transparent 1px, green 1px, green 3px, transparent 3px);
     background-size: 8px 18px;
+    margin-left: -10px;
 }
 
 .lettuce2 {
@@ -352,3 +358,13 @@
     }
 }
 
+
+
+@keyframes wiggle-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(8px); 
+    }
+}
