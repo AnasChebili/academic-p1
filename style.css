@@ -58,6 +58,7 @@
   width: 50px;
   background-color: #ffb703;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .bun-dot {
@@ -65,6 +66,12 @@
   width: 5px;
   border-radius: 50%;
   background-color: #fb8500;
+}
+
+.bun-dots {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
 }
 
 .lettuce-wrapper {
