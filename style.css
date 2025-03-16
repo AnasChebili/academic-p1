@@ -59,19 +59,40 @@
   background-color: #ffb703;
   border-radius: 50%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .bun-dot {
-  height: 5px;
-  width: 5px;
+  height: 3px;
+  width: 3px;
   border-radius: 50%;
-  background-color: #fb8500;
+  background-color: #fada5e;
 }
 
 .bun-dots {
+  position: relative;
+}
+
+.bun-dot-layer {
+  position: absolute;
   display: flex;
-  gap: 3px;
-  flex-wrap: wrap;
+  column-gap: 9px;
+}
+
+.bun-dot-layer1 {
+  top: 3px;
+  left: -50px;
+}
+
+.bun-dot-layer2 {
+  top: 10px;
+  left: -44px;
+}
+
+.bun-dot-layer3 {
+  top: 17px;
+  left: -50px;
 }
 
 .lettuce-wrapper {
