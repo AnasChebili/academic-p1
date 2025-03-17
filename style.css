@@ -110,7 +110,7 @@
 .lettuce {
   position: absolute;
   width: 70px;
-  height: 10px;
+  height: 9px;
   background: radial-gradient(
     1px,
     transparent,
@@ -124,7 +124,7 @@
 }
 
 .lettuce2 {
-  top: 10px;
+  top: 8px;
   left: 4px;
   background-position: 0px -27px;
 }
