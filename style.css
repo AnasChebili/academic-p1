@@ -407,6 +407,35 @@
   left: -1px;
 }
 
+.pizza-slice-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizza-slice-wrapper1 {
+  height: 84px;
+  width: 84px;
+  position: absolute;
+  right: 58px;
+  top: -2px;
+  background: white;
+  transform: rotate(-45deg);
+}
+
+.pizza-slice-wrapper2 {
+  height: 84px;
+  width: 84px;
+  position: absolute;
+  right: -1px;
+  top: 57px;
+  background: white;
+  transform: rotate(-45deg);
+}
+
 .pizza-slice {
   height: 100px;
   width: 100px;
@@ -414,6 +443,7 @@
   background-color: yellow;
   border: 10px solid green;
 }
+
 @keyframes rotating-cheese1 {
   0% {
     transform: translateX(0px);
