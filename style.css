@@ -406,6 +406,14 @@
   top: 16px;
   left: -1px;
 }
+
+.pizza-slice {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+  border: 10px solid green;
+}
 @keyframes rotating-cheese1 {
   0% {
     transform: translateX(0px);
