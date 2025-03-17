@@ -47,6 +47,10 @@
   animation: wiggle-right 0.5s linear infinite;
 }
 
+.burger-container:hover .bun-dot-layer {
+  animation: translate-dots 3s linear infinite;
+}
+
 .top-bun-wrapper {
   width: 50px;
   height: 25px;
@@ -392,5 +396,14 @@
   }
   100% {
     transform: translateX(8px);
+  }
+}
+
+@keyframes translate-dots {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translate(36px);
   }
 }
