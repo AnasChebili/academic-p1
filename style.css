@@ -408,8 +408,8 @@
 }
 
 .pizza-slice-container {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: relative;
   display: flex;
   align-items: center;
@@ -417,21 +417,21 @@
 }
 
 .pizza-slice-wrapper1 {
-  height: 84px;
-  width: 84px;
+  height: 42px;
+  width: 42px;
   position: absolute;
-  right: 58px;
-  top: -2px;
+  right: 28px;
+  top: 0px;
   background: white;
   transform: rotate(-45deg);
 }
 
 .pizza-slice-wrapper2 {
-  height: 84px;
-  width: 84px;
+  height: 42px;
+  width: 42px;
   position: absolute;
-  right: -1px;
-  top: 57px;
+  right: 0px;
+  top: 28px;
   background: white;
   transform: rotate(-45deg);
 }
