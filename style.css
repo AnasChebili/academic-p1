@@ -260,10 +260,46 @@
   left: 34px;
 }
 
-.watermelon-container:hover .row1,
+/* .watermelon-container:hover .row1,
 .watermelon-container:hover .row2 {
   top: 40px;
   opacity: 0;
+}
+ */
+.watermelon-container:hover .bite1,
+.watermelon-container:hover .bite2,
+.watermelon-container:hover .bite3 {
+  animation: showUp 0s linear 0s forwards;
+}
+.watermelon-container:hover .bite4,
+.watermelon-container:hover .bite5,
+.watermelon-container:hover .bite6 {
+  animation: showUp 0s linear 0.2s forwards;
+}
+.watermelon-container:hover .bite7,
+.watermelon-container:hover .bite8,
+.watermelon-container:hover .bite9 {
+  animation: showUp 0s linear 0.4s forwards;
+}
+.watermelon-container:hover .bite10,
+.watermelon-container:hover .bite11,
+.watermelon-container:hover .bite12 {
+  animation: showUp 0s linear 0.6s forwards;
+}
+.watermelon-container:hover .bite13,
+.watermelon-container:hover .bite14,
+.watermelon-container:hover .bite15 {
+  animation: showUp 0s linear 0.8s forwards;
+}
+.watermelon-container:hover .bite16,
+.watermelon-container:hover .bite17,
+.watermelon-container:hover .bite18 {
+  animation: showUp 0s linear 1s forwards;
+}
+.watermelon-container:hover .bite19,
+.watermelon-container:hover .bite20,
+.watermelon-container:hover .bite21 {
+  animation: showUp 0s linear 1.2s forwards;
 }
 
 .bite {
@@ -274,6 +310,8 @@
   top: 14px;
   background: white;
   z-index: 10;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .bite1 {
@@ -288,7 +326,86 @@
   top: 21px;
   left: 14px;
 }
-
+.bite4 {
+  top: 10px;
+  left: 28px;
+}
+.bite5 {
+  top: 10px;
+  left: 36px;
+}
+.bite6 {
+  top: 16px;
+  left: 35px;
+}
+.bite7 {
+  top: 16px;
+  left: 42px;
+  height: 13px;
+  width: 13px;
+}
+.bite8 {
+  top: 8px;
+  left: 44px;
+  height: 12px;
+  width: 12px;
+}
+.bite9 {
+  top: 4px;
+  left: 35px;
+  height: 13px;
+  width: 13px;
+}
+.bite10 {
+  top: 0px;
+  left: 32px;
+}
+.bite11 {
+  top: 6px;
+  left: 25px;
+}
+.bite12 {
+  top: 11px;
+  left: 18px;
+}
+.bite13 {
+  top: -1px;
+  left: 25px;
+}
+.bite14 {
+  top: 3px;
+  left: 16px;
+}
+.bite15 {
+  top: 12px;
+  left: 12px;
+}
+.bite16 {
+  top: -4px;
+  left: 17px;
+}
+.bite17 {
+  top: 7px;
+  left: 9px;
+}
+.bite18 {
+  top: 16px;
+  left: 6px;
+}
+.bite19 {
+  top: 1px;
+  left: 8px;
+}
+.bite20 {
+  top: 7px;
+  left: -1px;
+  height: 13px;
+  width: 14px;
+}
+.bite21 {
+  top: 16px;
+  left: -1px;
+}
 @keyframes rotating-cheese1 {
   0% {
     transform: translateX(0px);
@@ -428,5 +545,16 @@
   }
   100% {
     transform: translate(36px);
+  }
+}
+
+@keyframes showUp {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
   }
 }
