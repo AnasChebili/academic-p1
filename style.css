@@ -446,6 +446,16 @@
   transform: rotate(-45deg);
 }
 
+.pizza-slice-wrapper4 {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  left: 2px;
+  top: 28px;
+  background: white;
+  transform: rotate(-45deg);
+}
+
 .pizza-slice {
   height: 50px;
   width: 50px;
