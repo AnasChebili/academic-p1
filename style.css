@@ -407,6 +407,13 @@
   left: -1px;
 }
 
+.pizza-container {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
 .pizza-slice-container {
   width: 100px;
   height: 100px;
@@ -417,6 +424,7 @@
 }
 
 .pizza-slice-wrapper1 {
+  display: none;
   height: 42px;
   width: 42px;
   position: absolute;
@@ -427,6 +435,7 @@
 }
 
 .pizza-slice-wrapper2 {
+  display: none;
   height: 42px;
   width: 42px;
   position: absolute;
@@ -437,6 +446,7 @@
 }
 
 .pizza-slice-wrapper3 {
+  display: none;
   height: 42px;
   width: 42px;
   position: absolute;
@@ -447,6 +457,7 @@
 }
 
 .pizza-slice-wrapper4 {
+  display: none;
   height: 42px;
   width: 42px;
   position: absolute;
@@ -462,6 +473,8 @@
   border-radius: 50%;
   background-color: yellow;
   border: 10px solid green;
+  background-image: radial-gradient(circle, #3498db 10px, transparent 10px);
+  background-size: 50px 50px;
 }
 
 @keyframes rotating-cheese1 {
