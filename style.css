@@ -468,13 +468,11 @@
 }
 
 .pizza-slice {
-  height: 50px;
-  width: 50px;
+  height: 52px;
+  width: 52px;
   border-radius: 50%;
-  background-color: yellow;
-  border: 10px solid green;
-  background-image: radial-gradient(circle, #3498db 10px, transparent 10px);
-  background-size: 50px 50px;
+  background-color: #f6cd86;
+  border: 8px solid #e89b51;
 }
 
 @keyframes rotating-cheese1 {
