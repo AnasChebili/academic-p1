@@ -490,6 +490,11 @@
   top: 4px;
 }
 
+.pepporoni2 {
+  left: 30px;
+  top: 6px;
+}
+
 @keyframes rotating-cheese1 {
   0% {
     transform: translateX(0px);
