@@ -486,13 +486,63 @@
 }
 
 .pepporoni1 {
-  left: 15px;
-  top: 4px;
+  left: 12px;
+  top: 2px;
 }
 
 .pepporoni2 {
+  left: 28px;
+  top: 2px;
+}
+
+.pepporoni3 {
+  left: 39px;
+  top: 13px;
+}
+
+.pepporoni4 {
+  left: 3px;
+  top: 13px;
+}
+
+.pepporoni5 {
+  left: 40px;
+  top: 26px;
+}
+
+.pepporoni6 {
+  left: 2px;
+  top: 26px;
+}
+
+.pepporoni7 {
   left: 30px;
-  top: 6px;
+  top: 36px;
+}
+
+.pepporoni8 {
+  left: 13px;
+  top: 39px;
+}
+
+.pepporoni9 {
+  left: 17px;
+  top: 14px;
+}
+
+.pepporoni10 {
+  left: 26px;
+  top: 24px;
+}
+
+.pepporoni11 {
+  left: 28px;
+  top: 12px;
+}
+
+.pepporoni12 {
+  left: 13px;
+  top: 27px;
 }
 
 @keyframes rotating-cheese1 {
