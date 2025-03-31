@@ -412,6 +412,7 @@
   top: 50%;
   left: 75%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .pizza-slice-container {
@@ -482,67 +483,99 @@
   background-color: #ea4b23;
   border-radius: 50%;
   position: absolute;
-  left: -20px;
 }
 
 .pepporoni1 {
-  left: 12px;
-  top: 2px;
+  left: 13px;
+  top: 1px;
 }
 
 .pepporoni2 {
-  left: 28px;
-  top: 2px;
+  left: 24px;
+  top: 0px;
 }
 
 .pepporoni3 {
-  left: 39px;
-  top: 13px;
+  left: 34px;
+  top: 4px;
 }
 
 .pepporoni4 {
-  left: 3px;
-  top: 13px;
+  left: 4px;
+  top: 7px;
 }
 
 .pepporoni5 {
   left: 40px;
-  top: 26px;
+  top: 13px;
 }
 
 .pepporoni6 {
-  left: 2px;
-  top: 26px;
+  left: 0px;
+  top: 17px;
 }
 
 .pepporoni7 {
-  left: 30px;
-  top: 36px;
-}
-
-.pepporoni8 {
-  left: 13px;
-  top: 39px;
-}
-
-.pepporoni9 {
-  left: 17px;
-  top: 14px;
-}
-
-.pepporoni10 {
-  left: 26px;
+  left: 41px;
   top: 24px;
 }
 
+.pepporoni8 {
+  left: 1px;
+  top: 28px;
+}
+
+.pepporoni9 {
+  left: 7px;
+  top: 37px;
+}
+
+.pepporoni10 {
+  left: 16px;
+  top: 42px;
+}
+
 .pepporoni11 {
-  left: 28px;
-  top: 12px;
+  left: 27px;
+  top: 42px;
 }
 
 .pepporoni12 {
+  left: 36px;
+  top: 35px;
+}
+
+.pepporoni13 {
   left: 13px;
-  top: 27px;
+  top: 12px;
+}
+
+.pepporoni14 {
+  left: 24px;
+  top: 11px;
+}
+
+.pepporoni15 {
+  left: 31px;
+  top: 20px;
+}
+
+.pepporoni16 {
+  left: 10px;
+  top: 22px;
+}
+
+.pepporoni17 {
+  left: 15px;
+  top: 31px;
+}
+.pepporoni18 {
+  left: 26px;
+  top: 31px;
+}
+.pepporoni19 {
+  left: 20px;
+  top: 21px;
 }
 
 @keyframes rotating-cheese1 {
