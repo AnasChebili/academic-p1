@@ -414,11 +414,11 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-.pizza-container:hover .pizza-slice-wrapper1 {
+.pizza-container:hover .pizza-slice-wrapper2 {
   animation: takeSlice 0s linear 0s forwards;
 }
 
-.pizza-container:hover .pizza-slice-wrapper2 {
+.pizza-container:hover .pizza-slice-wrapper1 {
   animation: takeSlice 0s linear 0.5s forwards;
 }
 
