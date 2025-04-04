@@ -449,6 +449,7 @@
   top: 0px;
   background: white;
   transform: rotate(-45deg);
+  z-index: 10;
 }
 
 .pizza-slice-wrapper2 {
@@ -461,6 +462,7 @@
   top: 28px;
   background: white;
   transform: rotate(-45deg);
+  z-index: 10;
 }
 
 .pizza-slice-wrapper3 {
@@ -473,6 +475,7 @@
   bottom: 0px;
   background: white;
   transform: rotate(-45deg);
+  z-index: 10;
 }
 
 .pizza-slice-wrapper4 {
@@ -485,6 +488,7 @@
   top: 28px;
   background: white;
   transform: rotate(-45deg);
+  z-index: 10;
 }
 
 .pizza-slice {
