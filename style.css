@@ -414,8 +414,20 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-.pizza-container:hover .pizza-slice-wrapper2 {
+.pizza-container:hover .pizza-slice-wrapper1 {
   animation: takeSlice 0s linear 0s forwards;
+}
+
+.pizza-container:hover .pizza-slice-wrapper2 {
+  animation: takeSlice 0s linear 0.5s forwards;
+}
+
+.pizza-container:hover .pizza-slice-wrapper3 {
+  animation: takeSlice 0s linear 1s forwards;
+}
+
+.pizza-container:hover .pizza-slice-wrapper4 {
+  animation: takeSlice 0s linear 1.5s forwards;
 }
 
 .pizza-slice-container {
