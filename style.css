@@ -1,6 +1,9 @@
+body {
+  background-color: #e9c46a;
+}
+
 header {
   position: absolute;
-  top: 25%;
   left: 50%;
   transform: translate(-50%, 0%);
   display: flex;
@@ -22,12 +25,16 @@ p {
 
 .food-container {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 200px;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 .burger-container {
