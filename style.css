@@ -5,6 +5,7 @@
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
+  gap: 100px;
 }
 
 .burger-container {
@@ -198,6 +199,7 @@
 }
 
 .watermelon-container {
+  margin-top: 17px;
   height: 25px;
   width: 50px;
   transform: rotate(-135deg);
